@@ -1,0 +1,78 @@
+     {
+  "name": "Krabice pukú žvýkacího tabáku",
+  "type": 1,
+  "points": [
+    {
+      "x": 1391.25,
+      "y": 85.0478515625,
+      "z": 1005.582824707,
+      "int": 18,
+      "dim": 3451,
+      "me": ["vzal bednu z regálu.", "vzala bednu z regálu."],
+      "help": "Nyní přejdi ke stroji a polož bednu.",
+      "minigame": {
+        "game": "boxes",
+        "steps": 1,
+        "point": {
+          "x": 1408.3369140625,
+          "y": 76.38671875,
+          "z": 1005.5834960938,
+          "int": 18,
+          "dim": 3451
+        },
+        "fail": "Vysypal si bednu.",
+        "done": "Položil si bednu na pás."
+      }
+    },
+    {
+    "help": "Nyní přejdi kousek vedle a začni nastavovat stroj.",
+     "x": 1409.55078125,
+      "y": 86.0673828125,
+      "z": 1005.5833740234,
+      "int": 18,
+      "dim": 3451,
+       "me": ["začal nastavovat stroj.", "začala nastavovat stroj."],
+      "minigame": {
+        "game": "snake",
+        "steps": 3,
+        "help": "Nyní přejdi s bednou ke stolu a zkontroluj obsah.",
+        "point": {
+          "x": 1415.8134765625,
+          "y": 85.6044921875,
+          "z": 1005.582824707,
+          "int": 18,
+          "dim": 3451
+          "me": ["kontroluje obsah bedny."],
+        "minigame": {
+        "game": "snake",
+        "steps": 3,
+         },
+        "fail": "V bedne jsou vadné kousky.",
+        "done": "Obsah bedny si úspěšne zkontroloval."
+      }
+            "x": 1418.205078125,
+      "y": 85.6689453125,
+      "z": 1005.5826416016,
+      "int": 18,
+      "dim": 3451,
+      "me": ["vzal bednu ze stolu.", "vzala bednu ze stolu."],
+      "help": "Nyní přejdi k otevřené bedně a ulož bedny do ní.",
+      "minigame": {
+        "game": "boxes",
+        "steps": 5,
+        "help": "Nyní přenes bednu do otevřené bedny.",
+        "point": {
+          "x": 1393.037109375,
+          "y": 65.23046875,
+          "z": 1005.5830078125,
+          "int": 18,
+          "dim": 3451
+          "me": ["položil bednu do otevřené bedny.", "položila bednu do otevřené bedny."],
+          "help": "Odevzdal jsi košík, získáváš [REWARD] jako odměnu."
+        },
+        "fail": "Vysypal si bednu.",
+        "done": "Položil si bednu do otevřené bedny."
+      }
+  ],
+  "reward": 10000
+}
