@@ -1,5 +1,5 @@
      {
-  "name": "Krabice pukú žvýkacího tabáku",
+  "name": "Krabice puků žvýkacího tabáku",
   "type": 1,
   "points": [
     {
@@ -20,8 +20,8 @@
           "int": 18,
           "dim": 3451
         },
-        "fail": "Vysypal si bednu.",
-        "done": "Položil si bednu na pás."
+        "fail": "Vysypal/a jsi bednu.",
+        "done": "Položil/a jsi bednu na pás."
       }
     },
     {
@@ -47,8 +47,8 @@
         "game": "snake",
         "steps": 3,
          },
-        "fail": "V bedne jsou vadné kousky.",
-        "done": "Obsah bedny si úspěšne zkontroloval."
+        "fail": "V bedně jsou vadné kousky.",
+        "done": "Obsah bedny byl úspěšně zkontrolován."
       }
             "x": 1418.205078125,
       "y": 85.6689453125,
@@ -56,22 +56,22 @@
       "int": 18,
       "dim": 3451,
       "me": ["vzal bednu ze stolu.", "vzala bednu ze stolu."],
-      "help": "Nyní přejdi k otevřené bedně a ulož bedny do ní.",
+      "help": "Nyní přejdi k otevřené krabici a ulož bedny do ní.",
       "minigame": {
         "game": "boxes",
         "steps": 5,
-        "help": "Nyní přenes bednu do otevřené bedny.",
+        "help": "Nyní přenes bednu do otevřené krabice.",
         "point": {
           "x": 1393.037109375,
           "y": 65.23046875,
           "z": 1005.5830078125,
           "int": 18,
           "dim": 3451
-          "me": ["položil bednu do otevřené bedny.", "položila bednu do otevřené bedny."],
-          "help": "Odevzdal jsi košík, získáváš [REWARD] jako odměnu."
+          "me": ["položil bednu do otevřené krabice.", "položila bednu do otevřené krabice."],
+          "help": "Bedny byly úspěšně zabaleny, získáváš [REWARD] jako odměnu."
         },
-        "fail": "Vysypal si bednu.",
-        "done": "Položil si bednu do otevřené bedny."
+        "fail": "Bedna byla vysypána.",
+        "done": "Bedna byla úspěšně položena do otevřené krabice."
       }
   ],
   "reward": 10000
