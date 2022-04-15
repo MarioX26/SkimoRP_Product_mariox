@@ -1,0 +1,66 @@
+{
+  "name": "Puk žvýkacího tabáku ROYAL",
+  "type": 2,
+  "points": [
+    {
+      "x": 1867.6318359375,
+      "y": -2457.7236328125,
+      "z": 13.579086303711,
+      "int": 27,
+      "dim": 3604,
+      "me": ["otevřel bednu a vytáhnul z ní krabičku tabáku.", "Otevřela bednu a vytáhnula z ní krabičku tabáku."],
+      "help": "Nyní přejdi k poličce a nalep nálepku s názvem ROYAL na puk.",
+      "minigame": {
+        "game": "boxes",
+        "steps": 1,
+        "point": {
+          "x": 1865.638671875,
+          "y": -2463.525390625,
+          "z": 13.579086303711,
+          "int": 27,
+          "dim": 3604
+        },
+        "help": "Nyní přejdi o kousek vedle, vezmi pásku a nalep na puk nálepku s názvem ROYAL.",
+        "fail": "Upadl ti puk, čím se poškodil.",
+        "done": "Položil jsi puk na poličku."
+      }
+    },
+    {
+      "x": 1865.6279296875,
+      "y": -2464.779296875,
+      "z": 13.579086303711,
+      "int": 27,
+      "dim": 3604,
+      "me": ["začal lepit na puk nálepku s názvem ROYAL.", "začala lepit na puk nálepku s názvem ROYAL."],
+    },
+    {
+      "x": 1865.6279296875,
+      "y": -2464.779296875,
+      "z": 13.579086303711,
+      "int": 27,
+      "dim": 3604,
+      "minigame": {
+        "game": "keys",
+        "steps": 15,
+        "speed": 700,
+        "fail": "Nepodařilo se ti nalepit nálepku rovnoměrně.",
+        "done": "Úspěšně a rovnoměrně jsi nalepil nálepku."
+      },
+      "me": "vzal puk do ruky.",
+      "help": "Nyní se přesuň ke krabici, do které ulož puk."
+    },
+    {
+      "x": 1876.1767578125,
+      "y": -2462.451171875,
+      "z": 13.579086303711,
+      "int": 27,
+      "dim": 3604,
+      "minigame": {
+        "game": "snake",
+        "steps": 1,
+        "fail": "Poškodil jsi puk.",
+        "done": "Položil si puk do krabice."
+      },
+  ],
+  "reward": Puk žvýkacího tabáku ROYAL
+}
