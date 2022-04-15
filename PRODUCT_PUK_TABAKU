@@ -21,8 +21,8 @@
           "dim": 3604
         },
         "help": "Nyní přejdi o kousek vedle, vezmi pásku a nalep na puk nálepku s názvem ROYAL.",
-        "fail": "Upadl ti puk, čím se poškodil.",
-        "done": "Položil/a jsi puk na poličku."
+        "fail": "Upadl ti puk, čímž se poškodil.",
+        "done": "Puk byl úspěšně položen na poličku."
       }
     },
     {
@@ -44,7 +44,7 @@
         "steps": 15,
         "speed": 700,
         "fail": "Nepodařilo se ti nalepit nálepku rovnoměrně.",
-        "done": "Úspěšně a rovnoměrně jsi nalepil/a nálepku."
+        "done": "Nálepka byla úspěšně rovnoměrně nalepena na puk."
       },
       "me": ["vzal puk do ruky.", "vzala puk do ruky."],
       "help": "Nyní se přesuň ke krabici, do které ulož puk."
