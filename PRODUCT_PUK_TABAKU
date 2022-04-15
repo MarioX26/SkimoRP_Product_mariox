@@ -21,7 +21,7 @@
           "dim": 3604
         },
         "help": "Nyní přejdi o kousek vedle, vezmi pásku a nalep na puk nálepku s názvem ROYAL.",
-        "fail": "Upadl ti puk, čímý se poškodil.",
+        "fail": "Upadl ti puk, čímž se poškodil.",
         "done": "Puk byl úspěšně položen na poličku."
       }
     },
