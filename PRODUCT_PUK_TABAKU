@@ -8,7 +8,7 @@
       "z": 13.579086303711,
       "int": 27,
       "dim": 3604,
-      "me": ["otevřel bednu a vytáhnul z ní krabičku tabáku.", "Otevřela bednu a vytáhnula z ní krabičku tabáku."],
+      "me": ["otevřel bednu a vytáhnul z ní krabičku tabáku.", "otevřela bednu a vytáhnula z ní krabičku tabáku."],
       "help": "Nyní přejdi k poličce a nalep nálepku s názvem ROYAL na puk.",
       "minigame": {
         "game": "boxes",
@@ -22,7 +22,7 @@
         },
         "help": "Nyní přejdi o kousek vedle, vezmi pásku a nalep na puk nálepku s názvem ROYAL.",
         "fail": "Upadl ti puk, čím se poškodil.",
-        "done": "Položil jsi puk na poličku."
+        "done": "Položil/a jsi puk na poličku."
       }
     },
     {
@@ -44,9 +44,9 @@
         "steps": 15,
         "speed": 700,
         "fail": "Nepodařilo se ti nalepit nálepku rovnoměrně.",
-        "done": "Úspěšně a rovnoměrně jsi nalepil nálepku."
+        "done": "Úspěšně a rovnoměrně jsi nalepil/a nálepku."
       },
-      "me": "vzal puk do ruky.",
+      "me": ["vzal puk do ruky.", "vzala puk do ruky."],
       "help": "Nyní se přesuň ke krabici, do které ulož puk."
     },
     {
@@ -58,8 +58,8 @@
       "minigame": {
         "game": "snake",
         "steps": 1,
-        "fail": "Poškodil jsi puk.",
-        "done": "Položil si puk do krabice."
+        "fail": "Puk se poškodil.",
+        "done": "Puk byl uložen do krabice."
       },
   ],
   "reward": Puk žvýkacího tabáku ROYAL
