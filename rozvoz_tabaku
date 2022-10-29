@@ -1,0 +1,71 @@
+{
+  "name": "Rozvoz tabáku Royal.",
+  "type": 1,
+  "points": [
+    {
+      "x": 1391.2490234375,
+      "y": 85.5224609375,
+      "z": 1005.582824707,
+      "int": 18,
+      "dim": 3451,
+      "me": ["Vzal rozpis lokací."],
+      "help": "Nyní sedni do vozidla a jeď do Obchodního centra Los Santos.",
+      "minigame": {
+        "game": "snake",
+        "steps": 3,
+        "point": {
+          "x": 1154.388671875,
+          "y": -1440.177734375,
+          "z": 15.796875,
+          "int": 0,
+          "dim": 0
+                "minigame": {
+        "game": "snake",
+        "steps": 3,
+        "fail": "Vysypal jsi zakázku.",
+        "done": "Úspěšně jsi prodal tabák."
+      },   
+      "help": "Nyní sedni do vozidla a jeď do Obchodního centra Las Venturas.",
+            "minigame": {
+        "game": "snake",
+        "steps": 3,
+        "point": {
+          "x": 2634.7607421875 ,
+          "y": 1824.1376953125,
+          "z": 11.016061782837,
+          "int": 0,
+          "dim": 0
+                "minigame": {
+        "game": "snake",
+        "steps": 3,
+        "fail": "Vysypal jsi zakázku.",
+        "done": "Úspěšně jsi prodal tabák."
+      },   
+      "help": "Nyní sedni do vozidla a jeď do Obchodního centra San Fierro.",
+            "minigame": {
+        "game": "snake",
+        "steps": 3,
+        "point": {
+          "x": -1952.2109375 ,
+          "y": -866.388671875,
+          "z": 32.2265625,
+          "int": 0,
+          "dim": 0
+                "minigame": {
+        "game": "snake",
+        "steps": 3,
+        "fail": "Vysypal jsi zakázku.",
+        "done": "Úspěšně jsi prodal tabák."
+      },   
+      "help": "Nyní sedni do vozidla a jeď zpátky na sídlo Binatec, kde obdržíš odměnu.",
+      "x": 2269.73828125,
+      "y": -2353.6904296875,
+      "z": 13.546875,
+      "int": 0,
+      "dim": 0,
+      "me": ["Podala rozpis vrátnikovi a převzala odměnu."],
+      "help": "Odevzdal jsi rozpis, získáváš 35000kč jako odměnu."
+    }
+  ],
+  "reward": 35000
+}
